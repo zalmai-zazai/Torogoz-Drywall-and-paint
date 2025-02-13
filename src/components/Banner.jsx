@@ -2,22 +2,22 @@ import React from "react";
 
 const Banner = () => {
   return (
-    <section className="relative bg-[url(https://images.unsplash.com/photo-1604014237800-1c9102c219da?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80)] bg-cover bg-center bg-no-repeat">
+    <section className="relative bg-[url(https://thepaintlady.biz/wp-content/uploads/2018/03/side-show-pic-2.jpg)] bg-cover bg-center bg-no-repeat">
       <div className="absolute inset-0 bg-gray-900/65 sm:from-gray-900/65 sm:to-gray-900/25 ltr:sm:bg-gradient-to-r rtl:sm:bg-gradient-to-l"></div>
 
-      <div className="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8">
-        <div className="max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
+      <div className=" flex-1 relative  max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8">
+        <div className="max-w-3xl ltr:sm:text-left rtl:sm:text-right">
           <h1 className="text-3xl font-extrabold text-white sm:text-5xl">
-            Let us find your
+            Transform Your Space with
             <strong className="block font-extrabold text-rose-500">
               {" "}
-              Forever Home.{" "}
+              A Flawless Finish.{" "}
             </strong>
           </h1>
 
           <p className="mt-4 max-w-lg text-white sm:text-xl/relaxed">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt
-            illo tenetur fuga ducimus numquam ea!
+            We are a company specialized in drywall, paint, handyman, finish
+            work and much more.
           </p>
 
           <div className="mt-8 flex flex-wrap gap-4 text-center">
@@ -36,6 +36,9 @@ const Banner = () => {
             </a>
           </div>
         </div>
+        {/* <div className="flex-1">
+          <img src="/logo.png" alt="" />
+        </div> */}
       </div>
     </section>
   );

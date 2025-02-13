@@ -4,8 +4,18 @@ const Header = () => {
   //   const { isSignedIn } = useUser();
   return (
     <div className="flex justify-between items-center shadow-sm p-5">
-      <img src="/logo.jpg" height={150} width={150} alt="" />
-
+      <div className="flex flex-col   ">
+        <img
+          className="absolute "
+          src="/banner.png"
+          height={150}
+          width={150}
+          alt=""
+        />
+        <p className="font-bold text-gray-500 ml-24 mt-8">
+          Torogoz DryWall and Paint
+        </p>
+      </div>
       <ul className=" hidden md:flex items-center gap-16">
         <li className="font-medium hover:scale-105 cursor-pointer hover:text-primary transition-all text-gray-600">
           Home
