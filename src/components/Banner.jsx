@@ -1,5 +1,3 @@
-import React from "react";
-
 const Banner = () => {
   return (
     <section className="relative bg-[url(https://thepaintlady.biz/wp-content/uploads/2018/03/side-show-pic-2.jpg)] bg-cover bg-center bg-no-repeat">
